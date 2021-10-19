@@ -1,0 +1,21 @@
+{
+    "name": "rogerio/comercio",
+    "description": "",
+    "autoload": {
+        "psr-4": {
+          "Src\\": "src/"
+        },
+        "files": [
+          "src/Config.php"
+        ]
+      },
+    "authors": [
+        {
+            "name": "Rogerio Caetano",
+            "email": "rogercaetanos@gmail.com"
+        }
+    ],
+    "require": {
+        "coffeecode/router": "^1.0"
+    }
+}
